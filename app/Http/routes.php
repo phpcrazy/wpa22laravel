@@ -74,3 +74,7 @@ Route::get("route_db", function(){
 Route::get("test_controller", "TestController@index");
 
 Route::get("test_con_view", "TestController@getView");
+
+Route::get("/latest_update", function() {
+
+});
